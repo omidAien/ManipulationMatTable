@@ -1,0 +1,12 @@
+<div mat-dialog-content>
+    <ul>
+        <li>Position : {{ data.element.position }} </li>
+        <li>Name : {{ data.element.name }} </li>
+        <li>Weight : {{ data.element.weight }} </li>
+    </ul>
+</div>
+
+<div mat-dialog-actions>
+    <button mat-button [mat-dialog-close]="changeData" cdkFocusInitial>Edit</button>
+</div>
+  
